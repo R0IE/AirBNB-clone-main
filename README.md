@@ -6,6 +6,7 @@
 - Basic booking flow: pick check-in/check-out, guests, and create a booking.
 - The app blocks dates that are already booked so two people can't book the same night.
 - There's a seed script (`server/seed.js`) that makes a test user and some sample houses/bookings so you can try things quickly.
+- airbnb clone was previously using vercel and supabase. was converted to sql-lite
 
 The front-end code is in `src/` Vue and the server is in `server/`.
 
